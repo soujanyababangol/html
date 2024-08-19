@@ -1,0 +1,53 @@
+<!-- 15-7-24 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image tags</title>
+    <style>
+        .exampleimage{
+            object-fit: cover;
+        }
+        .profile{
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            object-fit: cover;
+            object-position: left top;
+            border: 4px solid blue;
+            padding: 4px;
+           
+        }
+        .profile:hover{
+            padding: 10px;
+            transition: 0.8s;
+            border: 4px solid rgb(125, 125, 237);
+            /* filter: grayscale(100%);
+            filter: contrast(10%);
+            filter: hue-rotate(95%);
+            filter: invert(100%);
+            filter: opacity(10%);
+            filter: saturate(50%); */
+            filter: sepia(70%) grayscale(100%) contrast(10%) blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>This is the html image tag</h1>
+    </center>
+
+    <hr>
+    <h2>Default image tag without any attributes</h2>
+    <img src="./images/img1.jpeg" alt="this is the nature image" width="300px" height="100px">
+
+    <hr>
+
+    <img src="./images/img1.jpeg" alt="this is the nature image" width="300px" height="100px" class="exampleimage">
+    <hr>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDpt7-GkraY1v4PdUd4_SdCeFk3ZP7GjXLLqF5rWcDIUilXSrvvG1LU3Jkh9FWX55gC4U&usqp=CAU" class="profile">
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!-- 17-7-24 -->
+<html>
+    <head>
+        <title>HTML lists</title>
+        <style>
+            /* .emojilist li::marker{
+                
+                content: "😊";
+            } */
+            .emojilist li::marker{
+                content: "😘";
+            }
+            .emojilist li:nth-child(1)::marker{
+                content: "😊";
+            } 
+            .emojilist li:nth-child(2)::marker{
+                content: "😍";
+            } 
+            .emojilist li:nth-child(3)::marker{
+                content: "✅";
+            } 
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>HTML LISTS</h1>
+            <p>there are three types of list</p>
+            <p>1) ordered list or numbered list (OL tag)</p>
+            <p>2) unordered list or bullet list (UL tag)</p>
+            <p>3) description list (DL tag)</p>
+        </center>
+
+        <h1>unordered list or bullet list (UL tag)</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+
+        <h1>unordered list or bullet list (UL tag)</h1>
+        <p>disc</p>
+        <p>circle</p>
+        <p>square</p>
+        <p>none</p>
+
+        <ul type = "disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+        
+        <ul type = "circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+        <ul type = "square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+        <ul type = "none">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+
+        <h1>Nested unordered list</h1>
+
+        <ul type ="desc">
+            <li>
+                <h1>HTML versions</h1>
+                <ul>
+                    </li>Html</li>
+                    </li>Html5</li>
+                </ul>
+            </li>
+            <hr>
+            <li>
+                <h1>CSS</h1>
+                <ul>
+                    <li>CSS</li>
+                    <LI>CSS3</LI>
+                </ul>
+            </li>
+            <hr>
+            <li>Bootstrap</li>
+            <li>JS</li>
+            <li>Reactjs</li>
+        </ul>
+
+        <ul class ="emojilist">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React js</li>
+            <li>Javascript</li>
+        </ul>
+    </body>
+</html>
